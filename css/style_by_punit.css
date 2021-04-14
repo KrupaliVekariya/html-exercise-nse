@@ -1,0 +1,39 @@
+/*Login*/
+.nseLoginBg{
+    background-image: url(../img/loginBg.svg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+}
+.nseLogo{  
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+.nseLoginCard{
+    position: absolute;
+    max-width: 498px;
+    width: 100%;
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translate(-10%, -50%);
+    padding: 45px;
+}
+@media(max-width: 768px){
+    .nseLogo {
+        left: 35%;
+        top: 15%;
+    }  
+} 
+@media(max-width: 567px) {
+    .nseLogo {
+        left: 15%;
+        top: 10%;
+    }  
+    .nseLogo img { 
+        max-width: 150px;
+    }
+}

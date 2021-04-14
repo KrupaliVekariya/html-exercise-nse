@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link  rel="stylesheet" href="./css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./css/styleRequest.css"/>
+        <script src="./js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <div class="container-fluid">
+        <div class="nseNavbar">
+            <div class="row">
+                <div class="col-sm col-md- col-lg-2">
+                    <img class="img nseNavLogo"src="./img/navImg.svg" class="d-inline-block align-top" alt="">
+                </div>
+                <div class="col-sm col-md- col-lg-10">
+                    <h4><b>Researcher Dashboard</b>
+                        <button class=" nseDropdown dropdown-toggle btn btn-light float-right" data-toggle="dropdown" value="Ken Adams">Ken Adams</button>
+                    </h4>
+                 </div>
+            </div>
+        </div>
+
+        <div class="row">   
+            <div class="columnSidebar col-sm col-md- col-lg-2">
+                <div>
+                <ul class="nseNavLink list-line">
+                    <li><a class="nav-link link-dark" href="#home"><img src="./img/iconHome.svg">&nbsp;Home</a></li>
+                    <li><a class="nav-link link-dark list-group-item-secondary nseNavLinkBorder" href="#request"><img src="./img/iconInbox.svg">&nbsp;Request</a></li>
+                    
+                    <li><a class="nav-link link-dark" href="#about"><img src="./img/iconInbox.svg">&nbsp;Groups</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="columnDiv nseNavExtension col-sm-9 col-md-10 col-lg-10">
+                <ul class="nseBodyDiv nav">
+                    <li class="nav-item">
+                      <a class="nav-link link-dark nseHyperlink2" href="#"><h4>Request Tracker</h4></a>
+                    </li>&nbsp;
+                    <li class="nav-item">
+                      <a class="nav-link link-dark nseHyperlink active" href="#"><h4><b>New Request</b></h4></a>
+                    </li>
+                </ul><br>
+                <div class="nseDivExtension col-sm col-md-10 col-lg-10">
+                    <h5 class="nseH5"><img src="./img/component.svg"> Extension Form <img src="./img/scroll.svg"> <b class="nseBold">membership Extension</b></h5><br>
+                    <div class="nseForm col-sm col-md- col-lg-">
+                        <h6 class="nseH5">Expire Date</h6>
+                        <div class="row">
+                            <div class="form-group nseFormControl col-sm col-md-5 col-lg-">
+                                <input class="form-control" type="date" id="date" name="date" value="2000-05-05"> 
+                            </div>
+                            <div class="form-group nseFormControl col-sm col-md-3 col-lg-">
+                                <h6 class="nseFormCountTitle">Current Duration</h6>
+                            </div>
+                            <div class="form-group nseFormControl col-sm col-md-4 col-lg-">
+                                <h6 class="timer count-title nseFormCount" data-to="15">&nbsp;&nbsp;<b class="nseBold">15</b><br>Days</h6>
+                            </div>
+                        </div>
+                    </div>  <br>
+                    <div class="nseForm col-sm col-md- col-lg-">
+                        <h6 class="nseH5">Extended Date</h6>
+                        <div class="row">
+                            <div class="form-group nseFormControl col-sm col-md-5 col-lg-">
+                                <input class="form-control" type="date" id="date" name="date" value="2000-05-05"> 
+                            </div>
+                            <div class="form-group nseFormControl col-sm col-md-3 col-lg-">
+                                <h6 class="nseFormCountTitle">New Duration</h6>
+                            </div>
+                            <div class="form-group nseFormControl col-sm- col-md-4 col-lg-">
+                                <h6 class="timer count-title nseFormCount" data-to="15">&nbsp;&nbsp;<b class="nseBold">35</b><br>Days</h6>
+                            </div>
+                        </div>
+                    </div>  
+                    <br>
+                    <div class="nseFormComment col-sm col-md- col-lg-">
+                        <h6 class="nseH5">Additional Comment(option)</h6>
+                        <div class="form-group col-sm col-md-8 col-lg-">
+                            <textarea class="form-control nseFormTextarea" rows="5" cols="50">Write your comment here.
+                            </textarea>
+                        </div>  
+                    </div><br><br>
+                    <div class="nseFormComment col-sm col-md- col-lg-">
+                        <div class="form-group ">
+                            <button type="button" class="btn btn-primary btn-lg nseFormButton">Submit Request</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+</div>
+</body>
+</html>

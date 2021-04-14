@@ -1,0 +1,178 @@
+*{
+    font-family: Arial;
+}
+.nseNavbar{
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+.nseNavLogo{
+    float: right;
+    padding-right: 35%;
+}
+.nseNavLink{
+    list-style-type: none;
+    background-color:#FFFFFF;
+    height: 100%;
+    letter-spacing: 0.14px;
+    color: #171725;
+    opacity: 1;
+    padding-left: 0rem;
+
+}
+.nseNavLinkBorder{
+    border-left-style: solid;
+    border-color:blueviolet;
+    letter-spacing: 0.14px;
+color: #6755D8;
+}
+.nseBodyDiv{
+    list-style-type: none;
+}
+.nseH5{
+    letter-spacing: 0.03px;
+color: #7E84A3;
+opacity: 1;
+}
+
+.nseCardImage{
+    
+    opacity: 1;
+    width: 65px;
+    height: 58px;
+    padding-left: 20px;
+    padding-top: 15px;
+   
+}
+.nseDivExtension{
+   
+    background: #FFFFFF;
+    opacity: 1;
+    height: 100%;
+    padding: 40px;
+
+}
+.nseNavExtension{
+background: #F4F7FC;
+opacity: 1;
+padding-top: 2%;
+padding-left: calc(var(--bs-gutter-x)/ 2)!important;
+
+}
+.nseBody{
+    background: #F4F7FC;
+}
+
+.nseHyperlink{
+    border-bottom-style: solid;
+    border-color:blueviolet;
+    background: color #f4f7fe;
+  
+}
+.nseHyperlink2{
+    border-bottom-style: solid;
+    border-color:rgb(111, 76, 145);
+    background: color #f4f7fe;
+    
+}
+.nseNavCard{
+    width: 370px;
+    height: 119px;
+    margin: 2%;
+}
+.card:hover{
+    background-color:blueviolet;
+    color: white;
+    opacity: 1;
+}
+.nseNavName{
+    text-align: center;
+    position:absolute;
+    top: 23%;
+    left: 35%;
+    padding-left: 35px;
+    padding-top: 5px;
+}
+.nseDropdown{
+    position: absolute;
+    left: 85%;
+    padding-right: 2%;
+}
+/* .column{
+    float: left;
+    width: 30%;
+}
+.columnDiv{
+    float:left;
+    width:80%;
+
+}
+.columnSidebar{
+    float:left;
+    width:15%;
+    margin-right:5px;
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .columnDiv{
+        width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    
+    }
+    .columnSidebar{
+        
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+ */
+ .nseBold{
+    color: #392E7D;
+ }
+ .nseForm{
+    background: #F4F7FC;
+    padding: 2%;
+ }
+ .nseFormControl{
+    width:33%;
+ }
+ .nseFormComment{
+     padding-left: 3%;
+ }
+ .nseFormTextarea{
+    width: 85%;
+    letter-spacing: 0.03px;
+    color: #7E84A3;
+    opacity: 2;
+ }
+ .nseFormButton{
+    width: 40%;
+    background: #5A48C9
+}
+.nseFormH6{
+    letter-spacing: 0.51px;
+    color: #7E84A3;
+    opacity: 1;
+    position:absolute;
+    left:60%;
+    top:50%;
+    padding-top: 1%;
+}
+.nseFormCountTitle{
+    float:right;
+    padding-right: 10px;
+    letter-spacing: 0.51px;
+    color: #707070;
+    opacity: 1;
+}
+.nseFormCount{
+    letter-spacing: 0.51px;
+    color: #392E7D;
+    opacity: 1;
+}
+
+
